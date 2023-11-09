@@ -27,9 +27,9 @@ jobs:
             uses: turtlebrowser/get-conan@v1.2
             with: 
                version: 2.0.13 
-          - name: Execute shell commands
-            working-directory: ./build
+          - name: Execute Shell Commands
             run: |
+               mkdir build
                cd build
                conan install ..
                conan build .. 
