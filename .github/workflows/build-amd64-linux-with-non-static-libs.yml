@@ -21,3 +21,14 @@ jobs:
               cygwin: 0
               cc: 1
               hardlinks: 0
+          - name: Get Conan
+            uses: turtlebrowser/get-conan@v1.2
+            with: 
+               version: 2.0.13 
+          - name: Meson Build
+            uses: BSFishy/meson-build@v1.0.3
+            with:
+               action: setup
+               directory: build
+               meson-version: 0.61.2
+               ninja-version: 1.10.1
