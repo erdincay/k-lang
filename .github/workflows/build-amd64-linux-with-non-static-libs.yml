@@ -32,4 +32,15 @@ jobs:
                mkdir build
                cd build
                conan install ..
+               cd .. 
+          - name: Meson Build
+            uses: BSFishy/meson-build@v1.0.3
+            with: 
+               action: build
+               directory: build
+               meson-version: 0.61.2
+               ninja-version: 1.11.1
+          - name: Execute Shell Commands
+            run: |
+               cd build
                conan build .. 
