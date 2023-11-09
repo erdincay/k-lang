@@ -36,4 +36,4 @@ jobs:
                action: build
                directory: build
                meson-version: 0.61.2
-               ninja-version: 1.10.1
+               ninja-version: 1.11.1
