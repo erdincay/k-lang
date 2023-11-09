@@ -1,10 +1,10 @@
-name: build linux non-static libraries
+name: build linux (amd64) with non-static libraries
 on:
    push
    
 jobs:
    build:
-      name: build linux non-static
+      name: build linux amd64 (non-static)
       runs-on: ubuntu-latest
    
       steps:
