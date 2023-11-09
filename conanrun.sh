@@ -1,0 +1,1 @@
+. "/home/erdincay/projekte/k-lang/conanrunenv-release-x86_64.sh"
