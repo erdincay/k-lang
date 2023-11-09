@@ -27,13 +27,6 @@ jobs:
             uses: turtlebrowser/get-conan@v1.2
             with: 
                version: 2.0.13 
-          - name: Meson Build
-            uses: BSFishy/meson-build@v1.0.3
-            with:
-               action: build
-               directory: build
-               meson-version: 0.61.2
-               ninja-version: 1.11.1
           - name: Execute shell commands
             working-directory: ./build
             run: |
