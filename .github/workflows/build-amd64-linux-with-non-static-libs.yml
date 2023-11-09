@@ -34,6 +34,6 @@ jobs:
             uses: BSFishy/meson-build@v1.0.3
             with:
                action: build
-               directory: build
+               directory: .
                meson-version: 0.61.2
                ninja-version: 1.11.1
