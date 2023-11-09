@@ -21,6 +21,12 @@ jobs:
               cygwin: 0
               cc: 1
               hardlinks: 0
+          - name: Setup Python
+            uses: actions/setup-python@v4.7.1
+            with:
+               python-version: 3.10
+               cache: pip
+               architecture: x64
           - name: Get Conan
             uses: turtlebrowser/get-conan@v1.2
             with: 
