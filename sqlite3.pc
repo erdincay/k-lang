@@ -1,0 +1,10 @@
+prefix=/home/erdincay/.conan2/p/sqlitacd1c7690310c/p
+libdir=${prefix}/lib
+includedir=${prefix}/include
+bindir=${prefix}/bin
+
+Name: sqlite3
+Description: Conan component: sqlite3-sqlite3
+Version: 3.44.0
+Libs: -L"${libdir}" -lsqlite3 -lpthread -ldl -lm
+Cflags: -I"${includedir}"

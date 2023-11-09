@@ -1,0 +1,1 @@
+. "/home/erdincay/projekte/k-lang/deactivate_conanrunenv-release-x86_64.sh"
